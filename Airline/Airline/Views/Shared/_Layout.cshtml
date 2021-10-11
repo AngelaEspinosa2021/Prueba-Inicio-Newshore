@@ -3,24 +3,18 @@
 <head>
     @*JQUERY*@
     <script src="~/Scripts/jquery-3.6.0.min.js"></script>
-
     @*FRAMEWORK JS*@
     <link href="~/Scripts/materialize/css/materialize.css" rel="stylesheet" />
     <script src="~/Scripts/materialize/js/materialize.js"></script>
-
     @*PROPIAS*@
     <link href="~/Content/Styles.css" rel="stylesheet" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     <title>Index Airline</title>
-
 </head>
 <body>
     <div class="row">
@@ -28,20 +22,22 @@
             <img class="responsive-img circle logo" src="~/Image/logo.png" />
         </div>
         <div class="col s7">
-            <ul class="margen-Menu" id="menu-responsive">
+            <ul class="margin-Menu" id="menu-responsive">
                 <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
                 <li>@Html.ActionLink("Vuelos Disponibles", "Index", "Flight")</li>
             </ul>
         </div>
     </div>
-
-    <div class="container body-content">
+    <div class="container">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
-        </footer>
     </div>
+    <footer class="page-footer" style="left: 0;width: 100%;">
+        <div class="footer-copyright">
+            <div class="container text-footer center">
+                <div>Manizales, Caldas, Colombia</div>
+                <div>&copy; @DateTime.Now.Year </div>
+            </div>
+    </footer>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
