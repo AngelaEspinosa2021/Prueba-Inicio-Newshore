@@ -1,2 +1,25 @@
 ﻿body {
+    font-family: 'Acme', sans-serif;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 80px;
+    width: 130px;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+li > a {
+        color: #546e7a;
+}
+
+.margen-Menu {
+    margin-top: 45px;
+    margin-left: 200px;
 }
