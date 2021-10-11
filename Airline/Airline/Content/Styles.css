@@ -2,6 +2,10 @@
     font-family: 'Acme', sans-serif;
 }
 
+header {
+    background-color: gainsboro !important;
+}
+
 .logo {
     margin-top: 20px;
     margin-left: 150px;
@@ -12,7 +16,7 @@
 li {
     display: inline;
     margin-right: 20px;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 li > a {
@@ -33,5 +37,34 @@ footer {
     color: white;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.Welcome1 {
+    color: #48add9 !important;
+    font-weight: bold !important;
+    font-family: 'Acme', sans-serif !important;
+    letter-spacing: 5px !important;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.Welcome2 {
+    color: #48add9 !important;
+    font-weight: bold !important;
+    font-family: 'Acme', sans-serif !important;
+    letter-spacing: 5px !important;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.text {
+    font-family: font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    color: #607d8b;
+    letter-spacing: 1px;
+    text-align: center;
     font-weight: bold;
 }
