@@ -16,11 +16,17 @@ header {
 li {
     display: inline;
     margin-right: 20px;
-    font-size: 30px;
+    margin-left: 20px;
+    font-size: 35px;
 }
 
 li > a {
         color: #546e7a;
+}
+
+li:hover {
+        border-bottom: 4px #48add9 solid;
+        cursor: pointer;
 }
 
 .margin-Menu {
@@ -28,9 +34,9 @@ li > a {
     margin-left: 200px;
 }
 
-footer {
+.footer {
     background-color: #48add9 !important;
-    padding: 20px;
+    padding: 40px;
 }
 
 .text-footer {
@@ -47,7 +53,7 @@ footer {
     letter-spacing: 5px !important;
     padding-top: 40px;
     text-align: center;
-    font-size: 50px;
+    font-size: 75px;
 }
 
 .Welcome2 {
@@ -57,7 +63,7 @@ footer {
     letter-spacing: 5px !important;
     padding-top: 40px;
     text-align: center;
-    font-size: 60px;
+    font-size: 95px;
 }
 
 .text {
