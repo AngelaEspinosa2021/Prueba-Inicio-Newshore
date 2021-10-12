@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Busqueda de Vuelos Disponibles</h2>
+
+<div class="form horizontal">
+    <div class="row">
+        <div class="col s4">
+            <select class="browser-default">
+                <option value="" disabled selected>Origen</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+        </div>
+        <div class="col s4">
+            <select class="browser-default">
+                <option value="" disabled selected>Destino</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+        </div>
+        <div class="input-field col s3">
+            <input type="text" class="datepicker">
+            <i class="material-icons prefix">date_range</i>
+        </div>
+    </div>
+    <div class="form-group center">
+        <div>
+            <input type="submit" value="Buscar Vuelo" class="FindButton" />
+        </div>
+    </div>
+</div>
+
+

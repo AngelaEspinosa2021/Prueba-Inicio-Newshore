@@ -74,3 +74,44 @@ li:hover {
     text-align: center;
     font-weight: bold;
 }
+
+.datepicker-date-display {
+    background-color: #48add9 !important;
+}
+
+.datepicker-table td.is-selected {
+    background-color: #48add9 !important;
+}
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+    color: #48add9 !important;
+}
+
+h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    color: #607d8b;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.input-field {
+    margin-top: 0rem !important;
+}
+
+.FindButton {
+    background-color: #48add9;
+    width: 120px !important;
+    border: none;
+    height: 30px !important;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
